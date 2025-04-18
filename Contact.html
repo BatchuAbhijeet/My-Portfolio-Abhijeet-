@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('background.html'); background-size: cover; height: 130vh;">
+    <div class="container-fluid p-5 bg-dark">
+        <div class="container bg-light rounded p-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h1 class="display-3 text-secondary"><b>Batchu Phani Nandana Abhijeet</b></h1>
+                </div>
+            </div>
+            <hr class="my-0">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Abhi.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contact.html">Contact Details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallaryy.html">Gallery</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <hr class="my-0">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="content-box p-5 rounded">
+                        <div class="text-center">
+                            <h1 class="contact-details orange-text"><b><u>Contact Details:</u></b></h1>
+                        </div>
+                        <p class="white-text large-font">Phone No: &#9990; 91+ 9701403879</p>
+                        <p class="white-text large-font">Gmail Id: &#9993; aabhijeet_batchu@srmap.edu.in</p><br>
+                        <div class="text-center">
+                            <h1 class="contact-me orange-text"><b><u>Contact Me:</u></b></h1>
+                        </div>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label white-text">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label white-text">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label white-text">Subject:</label>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label white-text">Enter Your Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
